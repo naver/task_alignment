@@ -1,0 +1,6 @@
+# Adapted from:
+#   https://github.com/nik-dim/tall_masks/blob/master/config/method/average.yaml (MIT)
+name: average
+k: 100
+
+full_name: ${method.name}_k=${method.k}

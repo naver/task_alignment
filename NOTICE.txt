@@ -1,0 +1,152 @@
+task_alignment Notice of acknowledgements:
+
+Portions of the Materials may utilize the following subcomponents or dependencies with separate copyright notices and license terms, the use of which is hereby acknowledged:
+
+------------------------------------------------------------------------
+PART 1: SEE NOTICES BELOW WITH RESPECT TO SOFTWARE FILES:
+------------------------------------------------------------------------
+
+Portions of the Materials incorporate software identified in this PART 1, which is distributed with the Materials in either unmodified or modified form. Any software distributed in unmodified form remains subject to the terms and conditions set forth below. Any software distributed in modified form is subject to the license applicable to the Materials; provided, however, that any restriction contained in the terms governing such software that imposes obligations or limitations beyond those set forth in the license to the Materials shall also apply to the use of such software.
+
+(A.1) This software:
+    task_singular_vectors (Task Singular Vectors)
+    that is available here:
+https://github.com/AntoAndGar/task_singular_vectors
+under these conditions (Apache License, Version 2.0):
+    https://github.com/AntoAndGar/task_singular_vectors/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    environment.yml
+    eval_single_task_for_rank.py
+    config/method/TSVC.yaml
+    config/method/TSVM.yaml
+    config/method/TSVM_2.yaml
+    config/method/dummy.yaml
+    src/eval/aggregation.py
+    src/eval/eval.py
+    src/eval/eval_utils.py
+    src/models/task_vectors.py
+    src/utils/args.py
+    src/utils/logging.py
+    src/utils/TSVC_utils.py
+    src/utils/TSVM_utils.py
+
+Also see: Gargiulo et al., "Task Singular Vectors: Reducing Task Interference in Model Merging" in Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
+
+(A.2) This software:
+    tall_masks
+    Copyright (c) 2024 wangke97, nik-dim, gortizji
+    that is available here:
+https://github.com/nik-dim/tall_masks
+under these conditions (MIT License):
+    https://github.com/nik-dim/tall_masks/blob/master/LICENSE
+is being redistributed in an unmodified form here:
+    src/eval/__init__.py
+and is being redistributed in a modified form under the same terms and conditions here:
+    main.py
+    eval_single_task.py
+    config/config.yaml
+    config/method/average.yaml
+    config/method/consensus.yaml
+    config/method/mag_masking.yaml
+    config/method/sum.yaml
+    config/method/tall_mask.yaml
+    config/method/ties.yaml
+    config/method/zeroshot.yaml
+    src/eval/aggregation.py
+    src/eval/eval.py
+    src/eval/eval_utils.py
+    src/models/__init__.py
+    src/models/task_vectors.py
+    src/utils/__init__.py
+    src/utils/distributed.py
+    src/utils/logging.py
+    src/utils/tallmask_utils.py
+    src/utils/ties_utils.py
+    src/utils/utils.py
+    src/utils/variables_and_paths.py
+
+Also see: Wang et al., "Localizing Task Information for Improved Model Merging and Compression" in International Conference on Machine Learning (ICML), 2024.
+
+(A.3) This software:
+    tangent_task_arithmetic
+    Copyright (c) 2023 gortizji
+    that is available here:
+https://github.com/gortizji/tangent_task_arithmetic
+under these conditions (MIT License):
+    https://github.com/gortizji/tangent_task_arithmetic/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    src/models/task_vectors.py
+
+Also see: Ortiz-Jimenez et al., "Task Arithmetic in the Tangent Space: Improved Editing of Pre-Trained Models" in arXiv, 2023.
+
+
+(A.4) This software:
+    LiNeS
+    Copyright (c) 2024 wang-kee
+    that is available here:
+https://github.com/wang-kee/LiNeS
+under these conditions (MIT License):
+    https://github.com/wang-kee/LiNeS/blob/master/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    src/eval/eval.py
+
+Also see: Wang et al., "LiNeS: Post-training Layer Scaling Prevents Forgetting and Enhances Model Merging" in arXiv, 2024.
+
+(A.5) This software:
+    iso-merging (Iso-C / Iso-CTS)
+    that is available here:
+https://github.com/danielm1405/iso-merging
+under these conditions (Apache License, Version 2.0):
+    https://github.com/danielm1405/iso-merging/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    src/utils/iso.py
+    config/method/iso_cts.yaml
+
+Also see: Marczak et al., "No Task Left Behind: Isotropic Model Merging with Common and Task-Specific Subspaces" in International Conference on Machine Learning (ICML), 2025.
+
+(A.6) This software:
+    AdaMerging
+    Copyright (c) 2023 Enneng Yang
+    that is available here:
+https://github.com/EnnengYang/AdaMerging
+under these conditions (MIT License):
+    https://github.com/EnnengYang/AdaMerging/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    src/utils/adamerging.py
+
+Also see: Yang et al., "AdaMerging: Adaptive Model Merging for Multi-Task Learning" in Twelfth International Conference on Learning Representations (ICLR), 2024.
+
+(A.7) This software:
+    wise-ft
+    Copyright (c) 2021-2022 Mitchell Wortsman, Gabriel Ilharco, Jong Wook Kim, Mike Li, Hannaneh Hajishirzi, Ali Farhadi, Hongseok Namkoong, Ludwig Schmidt
+    that is available here:
+https://github.com/mlfoundations/wise-ft
+under these conditions (MIT License):
+    https://github.com/mlfoundations/wise-ft/blob/master/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    src/eval/eval.py
+    src/models/modeling.py
+    src/utils/utils.py
+
+Also see: Worstman et al., "Robust fine-tuning of zero-shot models" in arXiv, 2021.
+
+(A.8) This software:
+    CLIP (per-dataset prompt templates and curated class-name lists, https://github.com/openai/CLIP/blob/main/data/prompts.md)
+    Copyright (c) 2021 OpenAI
+    that is available here:
+https://github.com/openai/CLIP
+under these conditions (MIT License):
+    https://github.com/openai/CLIP/blob/main/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    src/datasets/templates.py
+
+(A.9) This software:
+    torchvision v0.14.1 (Stanford Cars and GTSRB dataset readers)
+    Copyright (c) Soumith Chintala 2016, All rights reserved.
+    that is available here:
+https://github.com/pytorch/vision/tree/v0.14.1
+under these conditions (BSD 3 License):
+    https://github.com/pytorch/vision/blob/v0.14.1/LICENSE
+is being redistributed in a modified form under the same terms and conditions here:
+    src/datasets/cars.py
+    src/datasets/gtsrb.py

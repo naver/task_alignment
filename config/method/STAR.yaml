@@ -1,0 +1,5 @@
+name: STAR
+full_name: ${method.name}_eta=${method.eta}
+
+eta: 50
+known_rank: null

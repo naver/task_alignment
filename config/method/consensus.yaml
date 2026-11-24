@@ -1,0 +1,9 @@
+# Adapted from:
+#   https://github.com/nik-dim/tall_masks/blob/master/config/method/consensus.yaml (MIT)
+name: consensus
+k: 100
+prun_thre_k: 2
+use_ties: false
+ties_agg: "sum"
+
+full_name: ${method.name}_k=${method.k}

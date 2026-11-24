@@ -1,0 +1,15 @@
+# Adapted from:
+#   https://github.com/AntoAndGar/task_singular_vectors/blob/main/.gitignore (Apache-2.0)
+./zip/*
+/zip/code/*
+tsv_supmat.zip
+Task_Singular_Vectors_SupMat_Final.pdf
+media/*
+__pycache__/
+*.pyc
+logs/
+wandb/
+
+# local verification runs (results/single_task/ is tracked and intentional)
+results/*/
+!results/single_task/

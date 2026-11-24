@@ -1,0 +1,16 @@
+name: tasmerging_task
+full_name: ${method.name}
+
+num_iters: 500
+eval_every: 100
+log_every: 10
+batch_size: 128
+lr: 1e-3
+ft_on_gpu: false
+tas_cache_on_gpu: true
+data_seed: 123
+
+
+lambda_init: 0.3
+lambda_min: 0.0
+lambda_max: 1.0

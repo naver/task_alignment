@@ -1,0 +1,9 @@
+# Adapted from:
+#   https://github.com/nik-dim/tall_masks/blob/master/config/method/tall_mask.yaml (MIT)
+name: tall_mask
+k: 100
+use_ties: false
+ties_agg: "sum"
+load_mask: false
+
+full_name: ${method.name}_k=${method.k}

@@ -1,0 +1,4 @@
+name: iso_cts
+common_space_fraction: 0.8
+
+full_name: ${method.name}_csf=${method.common_space_fraction}
